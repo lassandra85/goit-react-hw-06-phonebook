@@ -24,6 +24,7 @@ export const Name = styled.span`
   font-size: 22px;
   color: var(--primary);
   text-shadow: var(--main-shadow);
+  text-transform: capitalize;
   flex-basis: 33.333%;
 `;
 
@@ -37,6 +38,7 @@ export const Number = styled.span`
 `;
 
 export const Btn = styled.button`
+  /* max-width: 100px; */
   padding: 5px 15px;
   flex-basis: 15%;
   font-size: 18px;

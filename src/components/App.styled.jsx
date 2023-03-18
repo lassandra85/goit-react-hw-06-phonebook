@@ -4,6 +4,7 @@ export const Container = styled.div`
   margin: 40px auto;
   padding: 20px;
   max-width: 650px;
+  min-height: 870px;
   text-align: center;
   box-shadow: var(--main-shadow);
   border-radius: 10px;

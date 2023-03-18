@@ -30,7 +30,8 @@ export const Input = styled(Field)`
   width: 100%;
   font-size: 24px;
   color: var(--primary);
-  background-color: #ebf5fc;
+  // text-transform: capitalize;
+  background-color:  #ebf5fc;
   border: none;
   border-radius: 5px;
   box-shadow: var(--inset-shadow);
@@ -46,7 +47,7 @@ export const Btn = styled.button`
   font-size: 24px;
   font-weight: 500;
   color: var(--accent);
-  background-color: hwb(305 87% 3%);
+  background-color: hwb(305 87% 3%;
   border-radius: 5px;
   border: 1px solid var(--accent);
   box-shadow: var(--main-shadow);
